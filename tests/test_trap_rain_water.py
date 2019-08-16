@@ -18,5 +18,5 @@ class TrapRainWaterTest(unittest.TestCase):
     def test_trap_rain_water(self, input_value, expected_result):
         self.longMessage = True
         actual = do_trap_rain_water(input_value)
-        message = 'For input {0}, expected result = {1}, and actual value = {2}'.format(input_value, expected_result, actual)
+        message = 'For input {0}, expected value = {1}, and actual value = {2}'.format(input_value, expected_result, actual)
         self.assertEqual(expected_result, actual, message)
